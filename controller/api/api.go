@@ -10,12 +10,12 @@ import (
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
 	"github.com/mailgun/oxy/forward"
-	"github.com/shipyard/shipyard/auth"
-	"github.com/shipyard/shipyard/controller/manager"
-	"github.com/shipyard/shipyard/controller/middleware/access"
-	"github.com/shipyard/shipyard/controller/middleware/audit"
-	mAuth "github.com/shipyard/shipyard/controller/middleware/auth"
-	"github.com/shipyard/shipyard/tlsutils"
+	"github.com/it-herz/shipyard/auth"
+	"github.com/it-herz/shipyard/controller/manager"
+	"github.com/it-herz/shipyard/controller/middleware/access"
+	"github.com/it-herz/shipyard/controller/middleware/audit"
+	mAuth "github.com/it-herz/shipyard/controller/middleware/auth"
+	"github.com/it-herz/shipyard/tlsutils"
 	"golang.org/x/net/websocket"
 )
 

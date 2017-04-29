@@ -3,12 +3,12 @@ package commands
 import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/shipyard/shipyard/auth/builtin"
-	"github.com/shipyard/shipyard/auth/ldap"
-	"github.com/shipyard/shipyard/controller/api"
-	"github.com/shipyard/shipyard/controller/manager"
-	"github.com/shipyard/shipyard/utils"
-	"github.com/shipyard/shipyard/version"
+	"github.com/it-herz/shipyard/auth/builtin"
+	"github.com/it-herz/shipyard/auth/ldap"
+	"github.com/it-herz/shipyard/controller/api"
+	"github.com/it-herz/shipyard/controller/manager"
+	"github.com/it-herz/shipyard/utils"
+	"github.com/it-herz/shipyard/version"
 )
 
 var (

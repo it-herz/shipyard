@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/shipyard/shipyard"
-	"github.com/shipyard/shipyard/controller/mock_test"
+	"github.com/it-herz/shipyard"
+	"github.com/it-herz/shipyard/controller/mock_test"
 	"github.com/stretchr/testify/assert"
 )
 

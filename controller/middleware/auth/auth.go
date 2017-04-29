@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/controller/manager"
+	"github.com/it-herz/shipyard/controller/manager"
 )
 
 var (
