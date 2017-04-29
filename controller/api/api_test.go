@@ -2,7 +2,7 @@ package api
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard/controller/mock_test"
+	"github.com/it-herz/shipyard/controller/mock_test"
 )
 
 func getTestApi() (*Api, error) {

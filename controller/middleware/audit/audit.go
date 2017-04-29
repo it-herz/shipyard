@@ -9,8 +9,8 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/shipyard/shipyard"
-	"github.com/shipyard/shipyard/controller/manager"
+	"github.com/it-herz/shipyard"
+	"github.com/it-herz/shipyard/controller/manager"
 )
 
 var (

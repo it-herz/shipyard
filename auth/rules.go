@@ -147,5 +147,18 @@ func DefaultACLs() []*ACL {
 	}
 	acls = append(acls, registriesACLRW)
 
+	role1 := &ACL{
+		RoleName:	"role1",
+		Description: "role1",
+		Rules: []*AccessRule{
+			{
+				Path: "/containers/33461d9cb55d9120d5b25e844b80357ff9e5d498753fb461e5c0fd359eb3f631",
+				Methods: []string{"GET","POST"},
+			},
+		},
+	}
+
+	acls = append(acls, role1)
+
 	return acls
 }

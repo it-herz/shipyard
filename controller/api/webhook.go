@@ -7,7 +7,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/mux"
-	"github.com/shipyard/shipyard/dockerhub"
+	"github.com/it-herz/shipyard/dockerhub"
 )
 
 func (a *Api) hubWebhook(w http.ResponseWriter, r *http.Request) {
